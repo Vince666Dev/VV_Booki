@@ -1,0 +1,144 @@
+@media (max-width: 991px)
+{
+    #box_filtres
+    {
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #box_bulles_filtres
+    {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+
+    .bulle_filtre
+    {
+        margin: 0 6px 13px 2px;
+    }
+
+    #box_section_hebergements
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    #box_hebergements
+    {
+        width: 100%;
+        border-radius: 0;
+        background-color: white;
+        padding-inline: 0;
+    }
+
+    #box_populaires
+    {
+        width: 100%;
+    }
+
+    #box_cards_hebergements
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card_hebergement
+    {
+        width: 47%;
+    }
+}
+
+
+
+/* media querries pour les smartphones */
+@media (max-width: 767px)
+{
+   
+    #box_header_main, header, nav, nav a
+    {
+        margin-inline: 0;
+        padding-inline: 0;
+    }
+
+    header
+    {
+        flex-direction: column;
+        height: 117px;
+    }
+
+    nav a
+    {
+        width: 50%;
+        text-align: center;
+        padding: 35px 0 15px 0;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    header img
+    {
+        margin-top: 30px;
+    }
+
+    nav a:hover
+    {
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
+    #box_section_recherche
+    {
+        margin: 45px 18px 0 18px;
+    }
+
+   .clic_loupe
+    {
+        visibility: visible;
+    }
+
+    .clic_rechercher
+    {
+        display: none;
+    }
+
+    #bouton_rechercher
+    {
+        border-radius: 17px;
+        margin-left: -10px;
+    }
+
+    #box_bulles_filtres p
+    {
+        font-size: 16px;
+    }
+
+    #box_section_hebergements
+    {
+        width: 100%;
+    }
+    
+    #box_populaires
+    {
+        border-radius: 0;
+    }
+    
+    #box_populaires, #box_hebergements
+    {
+        padding-inline: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .card_hebergement
+    {
+        width: 100%;
+        height: 190px;
+    }
+
+    .card_hebergement, .card_populaire
+    {
+        margin-inline: 0;
+        margin-bottom: 11px;
+    }
+}
