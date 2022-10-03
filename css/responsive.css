@@ -23,15 +23,13 @@
     #box_section_hebergements
     {
         flex-direction: column-reverse;
-        width: 100%;
     }
     
     #box_hebergements
     {
         width: 100%;
-        border-radius: 0;
-        background-color: white;
-        padding-inline: 0;
+        margin-top: 35px;
+        padding-bottom: 35px;
     }
 
     #box_populaires
@@ -41,13 +39,30 @@
 
     #box_cards_hebergements
     {
-        flex-direction: row;
-        flex-wrap: wrap;
+        margin-bottom: 0;
     }
 
     .card_hebergement
     {
         width: 47%;
+    }
+
+    #box_section_activites
+    {
+       margin-bottom: 16px;
+    }
+
+    #box_cards_activites
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .bloc_3_activites
+    {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 44px;
     }
 }
 
@@ -113,21 +128,27 @@
     {
         font-size: 16px;
     }
-
-    #box_section_hebergements
-    {
-        width: 100%;
-    }
-    
-    #box_populaires
-    {
-        border-radius: 0;
-    }
     
     #box_populaires, #box_hebergements
     {
         padding-inline: 20px;
         padding-bottom: 30px;
+    }
+    #box_populaires
+    {
+        border-radius: 0;
+    }
+    
+    #box_hebergements
+    {
+        background-color: white;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    
+    #box_cards_hebergements
+    {
+        margin-bottom: 20px;
     }
     
     .card_hebergement
@@ -138,7 +159,48 @@
 
     .card_hebergement, .card_populaire
     {
-        margin-inline: 0;
         margin-bottom: 11px;
+    }
+
+    h3
+    {
+        margin-top: 15px;
+    }
+
+    #box_section_activites
+    {
+        padding-inline: 20px;
+        
+        margin-bottom: 25px;
+        height: auto;
+    }
+    .bloc_3_activites
+    {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .card_activite img
+    {
+        height: 134px;
+    }
+
+    .card_activite
+    {
+        width: 100%;
+        margin-bottom: 23px;
+    }
+
+    footer
+    {
+        flex-direction: column;
+        height: auto;
+        padding-left: 29px;
+        padding-bottom: 45px;
+    }
+
+    footer div
+    {
+        width: 100%;
     }
 }
